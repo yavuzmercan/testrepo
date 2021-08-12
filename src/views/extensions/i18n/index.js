@@ -43,7 +43,7 @@ const I18nExtension = () => {
                   className='mb-1'
                   defaultChecked={context.locale === 'en'}
                 />
-                <CustomInput
+                {/* <CustomInput
                   type='radio'
                   id='radio-fr'
                   name='i18n-lang-radio'
@@ -75,7 +75,7 @@ const I18nExtension = () => {
                   label='Portuguese'
                   className='mb-1'
                   defaultChecked={context.locale === 'pt'}
-                />
+                /> */}
               </div>
               <div className='border p-2 mt-3'>
                 <h5 className='mb-1'>Title</h5>

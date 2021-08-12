@@ -1,5 +1,6 @@
 // ** Routes Imports
 import KartRoutes from './Kart'
+import SatisRoutes from './Satis'
 import AppRoutes from './Apps'
 import FormRoutes from './Forms'
 import PagesRoutes from './Pages'
@@ -20,6 +21,7 @@ const DefaultRoute = '/dashboard/ecommerce'
 const Routes = [
   ...DashboardRoutes,
   ...KartRoutes,
+  ...SatisRoutes,
   ...AppRoutes,
   ...PagesRoutes,
   ...UiElementRoutes,
